@@ -38,7 +38,7 @@ cd qr-code-generator
 MIT Lisansı - [Detaylar için LICENSE dosyasına bakın](LICENSE)
 
 ## 🌍 Canlı Demo
-[![Demo Button](https://img.shields.io/badge/Canlı_Demo-Test_Edin-2a9d8f?style=for-the-badge)](https://Yakında)
+[![Demo Button](https://img.shields.io/badge/Canlı_Demo-Test_Edin-2a9d8f?style=for-the-badge)](https://qr-code-generatorrr-lweaxo.vercel.app/)
 
 ## 📸 Ekran Görüntüleri
 
