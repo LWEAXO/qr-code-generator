@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Kod Oluşturucu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+</head>
+<body>
+  <a href="https://github.com/LWEAXO" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+
+
+  <div class="container">
+    <h1><i class="fas fa-qrcode"></i> QR Kod Oluşturucu</h1>
+    
+    <div class="input-group">
+      <input type="text" id="text-input" placeholder="URL veya metin girin..." />
+      <button onclick="generateQRCode()">
+        <i class="fas fa-bolt"></i> Oluştur
+      </button>
+    </div>
+    
+    <div class="option-group">
+      <label for="size-input">QR Kod Boyutu (px)</label>
+      <div class="size-input-container">
+        <input 
+          type="number" 
+          id="size-input" 
+          class="size-input empty" 
+          placeholder="200"
+          min="50"
+          max="1000"
+        />
+        <span class="size-hint">200</span>
+      </div>
+      <div class="max-size-info">Maksimum boyut: 1000px</div>
+    </div>
+    
+    <div id="error-message" class="error"></div>
+    
+    <div class="qr-container">
+      <div id="qr-code">
+        <p style="color: black;"></p>
+      </div>
+      
+      <div class="download-options">
+        <button class="download-btn png-btn" onclick="downloadQR('png')">
+          <i class="fas fa-download"></i> PNG
+        </button>
+        <button class="download-btn jpg-btn" onclick="downloadQR('jpg')">
+          <i class="fas fa-download"></i> JPG
+        </button>
+        <button class="download-btn jpeg-btn" onclick="downloadQR('jpeg')">
+          <i class="fas fa-download"></i> JPEG
+        </button>
+      </div>
+    </div>
+    
+    <div class="footer" style="text-align: center; margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">
+      <p>Oluşturduğunuz QR kodları otomatik olarak kaydedilmez.</p>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
