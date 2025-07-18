@@ -57,5 +57,5 @@ MIT Lisansı - [Detaylar için LICENSE dosyasına bakın](LICENSE)
 ## 📞 İletişim
 
 [![Discord](https://img.shields.io/badge/Discord-LWEAXO-5865F2?style=for-the-badge&logo=discord)](https://discord.com/users/1015356240492245054)
-[![Instagram](https://img.shields.io/badge/Instagram-@lweaxo-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)
+[![Instagram](https://img.shields.io/badge/Instagram-@lweaxo-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lweaxo)
 ---
